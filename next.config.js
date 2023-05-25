@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const withPWA = require("next-pwa")({
+  dest: "public",
+  swSrc: "sw.ts",
+  additionalManifestEntries: ["https://dummyimage.com/720x600"],
+});
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {},
+};
+
+module.exports = withPWA(nextConfig);
