@@ -16,6 +16,8 @@ const filtered = wbManifest.filter(
 filtered.push(
   ...[
     { url: "/", revision: null },
+    { url: "/blog", revision: null },
+    { url: "/posts", revision: null },
     { url: "/pricing", revision: null },
   ]
 );

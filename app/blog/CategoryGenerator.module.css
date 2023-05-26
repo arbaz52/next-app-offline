@@ -1,0 +1,9 @@
+.heading {
+  @apply text-2xl font-medium text-gray-900 mb-2;
+}
+.description {
+  @apply leading-relaxed;
+}
+.learnMore {
+  @apply text-pink-500 inline-flex items-center mt-4;
+}

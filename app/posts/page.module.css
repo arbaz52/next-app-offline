@@ -1,0 +1,9 @@
+.category {
+  @apply inline-block py-1 px-2 rounded bg-pink-50 text-pink-500 text-xs font-medium tracking-widest;
+}
+.heading {
+  @apply sm:text-3xl text-2xl font-medium text-gray-900 mt-4 mb-4;
+}
+.description {
+  @apply leading-relaxed mb-8;
+}
